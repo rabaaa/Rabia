@@ -234,8 +234,13 @@
 }
 
 .contact-section .card {
-  border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+
+  margin: 0 auto; /* Added */
+          float: none; /* Added */
+          margin-bottom: 10px; /* Added */
+
+  /* border: 0;
+  border-bottom: 0.25rem solid #64a19d; */
 }
 
 .contact-section .card h4 {
